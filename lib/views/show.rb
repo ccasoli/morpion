@@ -1,4 +1,4 @@
-class Show
+class Show 
 
     def menu
         puts "-"*30
@@ -17,14 +17,9 @@ class Show
         puts "-"*30
     end
 
-    def winner(hero)
-        puts "Bravo #{hero} tu a gagnee"
-    end
-
     def replay
+        puts ""
         puts "voulez vous rejouer ? o/n"
-        print "> "
-        input = gets.chomp
-        true if input == "o"
+        print ""
     end
 end

@@ -1,7 +1,8 @@
 class Application  
-    
+
     def perform
         Show.new.menu
-        Game.new.play
+        game = Game.new
+        game.play
     end
 end

@@ -9,8 +9,6 @@ require 'app/player'
 require 'app/game'
 require 'app/application'
 require 'views/show'
-require 'views/done'
-
 
 Application.new.perform
 binding pry

@@ -5,4 +5,12 @@ class Player
         @name = name
         @symbol = symbol
     end
+
+    def symbol
+        symbol = @symbol
+    end
+
+    def name
+        name = @name
+    end
 end

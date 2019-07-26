@@ -1,12 +1,8 @@
 class BoardCase
-    attr_accessor :case, :id_case
+    attr_accessor :id, :value
 
-    def initialize(id_case)
-        @case = " "
-        @id_case = id_case
-    end
-
-    def change_case(symbol)
-        @case = symbol
+    def initialize(id, value)
+        @id = id
+        @value = value.to_i
     end
 end
